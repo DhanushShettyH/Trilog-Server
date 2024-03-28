@@ -30,8 +30,8 @@ export const users = [
   },
   {
     _id: userIds[1],
-    firstName: "Steve",
-    lastName: "Ralph",
+    firstName: "Cheranth",
+    lastName: "C",
     email: "thataaa@gmail.com",
     password: "$!FEAS@!O)_IDJda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p3.jpeg",
@@ -62,8 +62,8 @@ export const users = [
   },
   {
     _id: userIds[3],
-    firstName: "Whatcha",
-    lastName: "Doing",
+    firstName: "Prarthana",
+    lastName: "P",
     email: "whatchadoing@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p6.jpeg",
@@ -78,8 +78,8 @@ export const users = [
   },
   {
     _id: userIds[4],
-    firstName: "Jane",
-    lastName: "Doe",
+    firstName: "Ananya",
+    lastName: "A",
     email: "janedoe@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p5.jpeg",
@@ -94,8 +94,8 @@ export const users = [
   },
   {
     _id: userIds[5],
-    firstName: "Harvey",
-    lastName: "Dunn",
+    firstName: "Athmik",
+    lastName: "A",
     email: "harveydunn@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p7.jpeg",
@@ -110,8 +110,8 @@ export const users = [
   },
   {
     _id: userIds[6],
-    firstName: "Carly",
-    lastName: "Vowel",
+    firstName: "Priyanka",
+    lastName: "P",
     email: "carlyvowel@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p8.jpeg",
@@ -126,8 +126,8 @@ export const users = [
   },
   {
     _id: userIds[7],
-    firstName: "Jessica",
-    lastName: "Dunn",
+    firstName: "Shyamala",
+    lastName: "D",
     email: "jessicadunn@gmail.com",
     password: "$2b$10$dsasdgsagasda//G9JxQ4bQ8KXf4OAIe/X/AK9skyWUy",
     picturePath: "p9.jpeg",
@@ -146,8 +146,8 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[1],
-    firstName: "Steve",
-    lastName: "Ralph",
+    firstName: "Cheranth",
+    lastName: "C",
     location: "New York, CA",
     description: "Some really long random description",
     picturePath: "post1.jpeg",
@@ -167,8 +167,8 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[3],
-    firstName: "Whatcha",
-    lastName: "Doing",
+    firstName: "Prarthana",
+    lastName: "P",
     location: "Korea, CA",
     description:
       "Another really long random description. This one is longer than the previous one.",
@@ -190,8 +190,8 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[4],
-    firstName: "Jane",
-    lastName: "Doe",
+    firstName: "Ananya",
+    lastName: "A",
     location: "Utah, CA",
     description:
       "This is the last really long random description. This one is longer than the previous one.",
@@ -214,8 +214,8 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[5],
-    firstName: "Harvey",
-    lastName: "Dunn",
+    firstName: "Athmik",
+    lastName: "A",
     location: "Los Angeles, CA",
     description:
       "This is the last really long random description. This one is longer than the previous one. Man I'm bored. I'm going to keep typing until I run out of things to say.",
@@ -238,8 +238,8 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[6],
-    firstName: "Carly",
-    lastName: "Vowel",
+    firstName: "Priyanka",
+    lastName: "P",
     location: "Chicago, IL",
     description:
       "Just a short description. I'm tired of typing. I'm going to play video games now.",
@@ -262,8 +262,8 @@ export const posts = [
   {
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[7],
-    firstName: "Jessica",
-    lastName: "Dunn",
+    firstName: "Shyamala",
+    lastName: "D",
     location: "Washington, DC",
     description:
       "For the last time, I'm going to play video games now. I'm tired of typing. I'm going to play video games now.",
